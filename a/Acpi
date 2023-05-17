@@ -1,0 +1,6 @@
+Scope(\) {
+    Method(_WAK) {
+        Store ("Hello World", Debug)
+        Return(Package(2){0x0000000,0})
+    }
+}
