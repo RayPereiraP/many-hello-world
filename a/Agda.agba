@@ -1,0 +1,4 @@
+module agda where
+open import import
+
+main = run (putStLn "Hello World")
